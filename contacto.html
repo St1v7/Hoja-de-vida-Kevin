@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Stiv González | Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header class="encabezado">
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="experiencia.html">Formación y Habilidades</a>
+            <a href="contacto.html" class="activo">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <h1>Contáctame</h1>
+
+        <div class="tarjeta">
+            <h2>Información Directa</h2>
+            <p><strong>Correo electrónico:</strong> <a href="mailto:kevingonzalez1306@gmail.com">kevingonzalez1306@gmail.com</a></p>
+            <p><strong>Teléfono / WhatsApp:</strong> +57 322 800 4216</p>
+            <p><strong>Ubicación:</strong> Bogotá, Colombia</p>
+        </div>
+
+        <div class="tarjeta">
+            <h2>Envíame un mensaje</h2>
+            <form action="mailto:kevingonzalez1306@gmail.com" method="post" enctype="text/plain" class="formulario">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre o empresa" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu propuesta o mensaje aquí..." required></textarea>
+
+                <button type="submit" class="boton">Enviar mensaje</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="pie">
+        <p>© 2026 Kevin Stiv González - Bogotá, Colombia.</p>
+    </footer>
+
+</body>
+</html>
